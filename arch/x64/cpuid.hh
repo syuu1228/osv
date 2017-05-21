@@ -15,6 +15,7 @@ namespace processor {
 struct features_type {
     features_type();
     bool sse3;
+    bool vmx;
     bool ssse3;
     bool cmpxchg16b;
     bool sse4_1;
